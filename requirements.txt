@@ -1,3 +1,4 @@
 django
 bcrypt
 gunicorn
+psycopg2
