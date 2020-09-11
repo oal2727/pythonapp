@@ -1,0 +1,17 @@
+{% extends 'index.html' %}
+{% block content %}
+<div class="col-md-9 m-auto">
+    <div class="card">
+        <div class="card-header">
+            Takss
+        </div>
+        <div class="card-body">
+           {% for usuario in data %}
+           <h3 class="text-primary text-center">Welcome {{ usuario.nombre }} {{ usuario.apellido }}</h3>
+           {% endfor %}
+        </div>
+    </div>
+    <!-- <p>no existe session T_T</p> -->
+    
+</div>
+{% endblock %}
